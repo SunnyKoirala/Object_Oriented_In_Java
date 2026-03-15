@@ -33,38 +33,59 @@ Students are expected to **upload all code and exercises taught in class** into 
 
 ## Student Submission Guidelines
 
-1. **Fork the repository** (if required).  
-2. Navigate to the folder for your topic or chapter. For example:  
+1. **Fork the repository** (if required).
+2. Navigate to the folder for the topic you are submitting.
 
-OOPS/Inheritance/your-name/
+3. **Inside each topic folder, create a new folder with your name.**
 
-3. **Create a folder with your name** inside the chapter/topic folder.  
-4. **Upload your code and exercises** there.  
+Example:
+
+Arrays/YourName/  
+Strings/YourName/  
+OOPS/Inheritance/YourName/
+
+4. **Add all the programs related to that topic inside your folder.**
+
+Example:
+
+Arrays/YourName/ArrayExample1.java  
+Arrays/YourName/ArrayExample2.java
+
+5. Repeat the same process for other topics as they are taught in class.
 
 ---
 
-### Git Commands for Submission
+## Git Commands for Submission
 
-# Clone your forked repository
-git clone https://github.com/yourusername/Object_Oriented_In_Java.git
-cd Object_Oriented_In_Java
+Clone your forked repository
 
-# Add your files inside the correct folder
-git add .
+git clone https://github.com/yourusername/Object_Oriented_In_Java.git  
+cd Object_Oriented_In_Java  
 
-# Commit your changes
-git commit -m "Added all OOPS assignments - Your Name"
+Add your files
 
-# Push to your fork
-git push origin main
+git add .  
 
-# Create a Pull Request to submit (if required)
+Commit your changes
+
+git commit -m "Added Java programs for Arrays - Your Name"  
+
+Push to GitHub
+
+git push origin main  
+
+Create a Pull Request if required.
 
 ---
 
 ## Rules and Best Practices
 
-- Do not modify other students’ folders.  
-- Keep folder and file names clear (use your name).  
-- Push all code from the class exercises.  
-- Commit and push regularly to avoid losing work.
+- Always **create a folder with your name inside the topic folder** before uploading your files.
+- Do **not modify or delete other students' folders or files**.
+- Use **clear and meaningful file names** for your programs.
+- Push your code regularly after completing exercises in class.
+- Make sure your code **compiles and runs correctly** before pushing.
+
+---
+
+All students must upload the programs taught in class in the correct topic folders as part of their **course practice and assignment work**.
